@@ -4,7 +4,7 @@
     left: 50%;
     width: 200px;
     height: 200px;
-    margin:-120px 0 0 -120px;
+    margin:-100px 0 0 -100px;
     -webkit-animation:spin 4s linear infinite;
     -moz-animation:spin 4s linear infinite;
     animation:spin 4s linear infinite;
@@ -12,4 +12,3 @@
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
