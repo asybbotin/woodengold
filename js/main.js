@@ -1,7 +1,7 @@
 jQuery(document).ready(function ($) {
 
   // Hide Preloader
-  $("#preloader").delay(2000).fadeOut('fast');
+  $("#preloader").delay(4000).fadeOut('fast');
 
   // Header fixed and Back to top button
   $(window).scroll(function () {
